@@ -49,7 +49,7 @@ def Joint_4(value):
 
 def Joint_5(value):
     global joint_values
-    joint_values[4] = float(value)
+    joint_values[4] = int(value)
     
 
 
@@ -148,4 +148,5 @@ def Forward_kinematic():
     Y_AXIS = T[1,3]
     Z_AXIS = T[2,3]
  
+
     return X_AXIS,Y_AXIS,Z_AXIS
